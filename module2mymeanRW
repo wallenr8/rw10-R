@@ -1,0 +1,27 @@
+Task:
+Your assignment, evaluate the following function call myMean. The data for this function called assignment.
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+>myMean <- function(assignment2) { return(sum(assignment)/length(someData)) }
+
+Ans:
+The “assignment2” returned the following:
+
+[1] 16 18 14 22 27 17 19 17 17 22 20 22
+
+The “myMean” returned the following:
+
+Error in myMean(assignment2) : object ‘assignment’ not found
+
+The function myMean does not work the way it was supposed to work because objects “assignment” and “someData” are not defined. If they were both replaced with predefined object “assignment2”, the function “myMean” would return the expected mean value of the given data set.
+
+The corrected program would be:
+
+>assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+>myMean <- function(assignment2) { return(sum(assignment2)/length(assignment2)) }
+>myMean(assignment2)
+
+This program will return:
+
+[1] 19.25
