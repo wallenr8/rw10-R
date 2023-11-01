@@ -1,0 +1,8 @@
+Package: fprojromarW
+Title: bmi calculator
+Version: 0.0.0.1
+Authors@R:Romar Wallen
+Description: calculates body mass index 
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
