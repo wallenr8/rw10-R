@@ -1,1 +1,9 @@
+Body Mass Index (BMI) is a person’s weight in kilograms (or pounds) divided by the square of height in meters (or feet). A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.
+
+Cardiac output is the flow rate of the heart. It tells how much blood the heart pumps in a minute.
+
+This stroke volume calculator will help you determine the amount of blood that is pumped by your heart in a single beat. This value is often used in anesthesiology to measure the recovery after anesthesia. 
+
+
+
 w1 = 0; w2 = 0; w3 = 0; w4 = 0; w5 = 0; w6= 0; h=0; avgw = 0;                                  h = readline("Enter your height value: ");                                           w1 = readline("Enter first Weight value: ");                                           w2 = readline("Enter second Weight value: ");                                             w3 = readline("Enter third Weight value: ");                                         w4 = readline("Enter fourth Weight value: ");                                            w5 = readline("Enter fifth weight value: ");                                              w6 = readline("Enter sixth Weight value: ");                                     w1 = as.numeric(w1); w2 = as.numeric(w2); w3 = as.numeric(w3); w4 = as.numeric(w4); w5 = as.numeric(w5); w6 = as.numeric(w6); h = as.numeric(h);                                                     avgw <-( as.numeric(w1)+as.numeric(w2)+as.numeric(w3)+as.numeric(w4)+as.numeric(w5)+as.numeric(w6))/6 ; print(avgw); bmi <- (avgw/(h*h))*703; print(bmi); x <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun"); y <- c(w1, w2, w3, w4, w5, w6); barplot(y, names.arg = x, col = "green")
