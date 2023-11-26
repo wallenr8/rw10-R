@@ -3,7 +3,7 @@ Title: Weight Reader
 Version: 0.0.0.9000
 Authors@R: Romar Wallen, romarwallen@usf.edu
    
-Description: Take the 6 weight readings and height of clients and output the average weight and body mass index, this can be used to do further analysis.
+Description: Take the 6 weight readings and height of clients and output the average weight and body mass index, includes bp calculator. this can be used to do further analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
