@@ -6,9 +6,11 @@ Cardiac output is the flow rate of the heart. It tells how much blood the heart 
 
 This stroke volume calculator will help you determine the amount of blood that is pumped by your heart in a single beat. This value is often used in anesthesiology to measure the recovery after anesthesia. 
 
-issue: I hads issues with  the values, coming out as negative values, i had to use absolute value for outputs. entries are manually inputted.
+ℑ𝔰𝔰𝔲𝔢𝔰:
+I hads issues with  the values, coming out as negative values, i had to use absolute value for outputs. entries are manually inputted.
 
-𝔉𝔲𝔫𝔠𝔱𝔦𝔬𝔫𝔰
+
+𝔉𝔲𝔫𝔠𝔱𝔦𝔬𝔫𝔰:
 
 calculator takes w1, w2, w3,w4, w5, w6, h
 
