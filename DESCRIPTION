@@ -1,0 +1,13 @@
+Package: weightpackage
+Title: Jockey Weight Reader
+Version: 0.0.0.9000
+Author:
+    person:(given = "Romar",
+               family = "Wallen",
+               role = c("stud", "ent")
+               email = "romarwallen@usf.edu")
+Description: personal trainer tool. BMI and heart rate calculator. Automaticxally recommends dietary supplements & can be used to do further heart rate analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3 
