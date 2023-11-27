@@ -3,7 +3,9 @@ Title: Weight Reader
 Version: 0.0.0.9000
 Authors@R: Romar Wallen, romarwallen@usf.edu
    
-Description: Take the 6 weight readings and height of clients and output the average weight and body mass index, includes bp calculator. this can be used to do further analysis.
+Description: personal trainer tool. BMI and heart rate calculator. 
+Save the time it would take to do manual calculation and will automaticxally recommend dietary supplements
+Take the 6 weight readings and height of clients and output the average weight and body mass index, includes bp calculator. this can be used to do further heart rate analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
